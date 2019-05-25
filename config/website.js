@@ -7,7 +7,7 @@ module.exports = {
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription: 'This is where they post things!',
-  author: 'Author', // Author for schemaORGJSONLD
+  author: 'Pankaj Kumar', // Author for schemaORGJSONLD
   organization: 'Pankaj Kumar',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
