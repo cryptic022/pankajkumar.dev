@@ -111,7 +111,7 @@ export default ({
   headerBg,
   headerColor,
   noFooter,
-  noSubscribeForm,
+  noSubscribeForm = true,
 }) => {
   const {
     description: siteDescription,
