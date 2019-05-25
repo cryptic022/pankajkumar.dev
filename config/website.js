@@ -21,8 +21,8 @@ module.exports = {
   backgroundColor: '#2b2e3c',
 
   // Social component
-  twitter: 'https://twitter.com/cryptic22/',
-  twitterHandle: '@cryptic22',
+  twitter: 'https://twitter.com/cryptic022/',
+  twitterHandle: '@cryptic022',
   github: 'https://github.com/cryptic22/',
   linkedin: 'https://www.linkedin.com/in/cryptic22/',
 }
