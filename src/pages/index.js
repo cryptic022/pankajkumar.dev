@@ -35,7 +35,12 @@ const Hero = () => (
           max-width: ${rhythm(15)};
         `}
       >
-        Hey I am Pankaj Kumar.I am planning to write my first blog soon.
+        <div>
+          <p>
+            My name is Pankaj Kumar. Senior Software Engineer at{' '}
+            <a href="https://www.autodesk.com/">Autodesk</a>.
+          </p>
+        </div>
       </h1>
     </Container>
     <div
