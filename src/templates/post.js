@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
 import SEO from 'components/SEO'
+import Markdown from 'react-markdown'
 import { css } from '@emotion/core'
 import Container from 'components/Container'
 import Layout from '../components/Layout'
@@ -19,6 +20,7 @@ export default function Post({
   const date = mdx.frontmatter.date
   const title = mdx.frontmatter.title
   const banner = mdx.frontmatter.banner
+  const bannerCredit = mdx.frontmatter.bannerCredit
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
@@ -71,6 +73,14 @@ export default function Post({
                 sizes={banner.childImageSharp.fluid}
                 alt={site.siteMetadata.keywords.join(', ')}
               />
+              <div
+                css={css`
+                  display: flex;
+                  justify-content: center;
+                `}
+              >
+                {bannerCredit ? <Markdown>{bannerCredit}</Markdown> : null}
+              </div>
             </div>
           )}
           <br />
@@ -107,6 +117,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        bannerCredit
         slug
         keywords
       }
