@@ -57,3 +57,9 @@ Terraform community has shared generic modules on terraform registry like ecs-fa
 Checkout this example [Share Module Example](https://bit.ly/2ZnNYVi)
 
 ## Use terraform modules for mananging different environments(dev/stage/prod)
+
+A module is a container for multiple resources that are used together.We should use terraform modules for managing the code between different environment.Every terraform configuration has its own root module which consists of resources defined in the .tf files in the main working directory. We wrap common resources in modules so it can be reused for different environment. We can use git version system for modules.Checkout share modules example. It is hosted on github and we are directly using it.Checkout this example for modules structure: [Module Example](https://github.com/cryptic022/terraform-example/tree/master/module-example)
+
+## If you want to learn in details, check out this book
+
+[Terraform in Detail](https://learning.oreilly.com/library/view/terraform-up/9781492046899/)
