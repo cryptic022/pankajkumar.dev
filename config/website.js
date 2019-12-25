@@ -23,6 +23,6 @@ module.exports = {
   // Social component
   twitter: 'https://twitter.com/cryptic022/',
   twitterHandle: '@cryptic022',
-  github: 'https://github.com/cryptic22/',
+  github: 'https://github.com/cryptic022/',
   linkedin: 'https://www.linkedin.com/in/cryptic22/',
 }
