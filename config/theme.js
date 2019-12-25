@@ -31,7 +31,7 @@ const theme = {
   brand,
   breakpoints: {
     xs: '400px',
-    s: '600px',
+    s: '700px',
     m: '900px',
     l: '1200px',
   },
